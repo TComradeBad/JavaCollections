@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="resources.classes.VersionListTest" tests="25" skipped="0" failures="0" errors="0" timestamp="2020-02-10T14:29:40" hostname="comrade-Lenovo-ideapad-330-15ARR" time="0.136">
+  <properties/>
+  <testcase name="testRemove_Object()" classname="resources.classes.VersionListTest" time="0.051"/>
+  <testcase name="testGetListByVersion()" classname="resources.classes.VersionListTest" time="0.005"/>
+  <testcase name="testGet()" classname="resources.classes.VersionListTest" time="0.007"/>
+  <testcase name="testSet()" classname="resources.classes.VersionListTest" time="0.002"/>
+  <testcase name="testClear()" classname="resources.classes.VersionListTest" time="0.002"/>
+  <testcase name="testSize()" classname="resources.classes.VersionListTest" time="0.002"/>
+  <testcase name="testLastIndexOf()" classname="resources.classes.VersionListTest" time="0.002"/>
+  <testcase name="testAddAll_Collection()" classname="resources.classes.VersionListTest" time="0.002"/>
+  <testcase name="testToArray_GenericType()" classname="resources.classes.VersionListTest" time="0.002"/>
+  <testcase name="testRetainAll()" classname="resources.classes.VersionListTest" time="0.003"/>
+  <testcase name="testContainsAll()" classname="resources.classes.VersionListTest" time="0.002"/>
+  <testcase name="testAdd_GenericType()" classname="resources.classes.VersionListTest" time="0.003"/>
+  <testcase name="testGetCurrentBranch()" classname="resources.classes.VersionListTest" time="0.001"/>
+  <testcase name="testAddAll_int_Collection()" classname="resources.classes.VersionListTest" time="0.002"/>
+  <testcase name="testAdd_int_GenericType()" classname="resources.classes.VersionListTest" time="0.002"/>
+  <testcase name="testContains()" classname="resources.classes.VersionListTest" time="0.002"/>
+  <testcase name="testRemove_int()" classname="resources.classes.VersionListTest" time="0.002"/>
+  <testcase name="testIndexOf()" classname="resources.classes.VersionListTest" time="0.002"/>
+  <testcase name="testIsEmpty()" classname="resources.classes.VersionListTest" time="0.002"/>
+  <testcase name="testIterator()" classname="resources.classes.VersionListTest" time="0.001"/>
+  <testcase name="testRemoveAll()" classname="resources.classes.VersionListTest" time="0.003"/>
+  <testcase name="testListIterator_0args()" classname="resources.classes.VersionListTest" time="0.001"/>
+  <testcase name="testSubList()" classname="resources.classes.VersionListTest" time="0.002"/>
+  <testcase name="testListIterator_int()" classname="resources.classes.VersionListTest" time="0.002"/>
+  <testcase name="testToArray_0args()" classname="resources.classes.VersionListTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

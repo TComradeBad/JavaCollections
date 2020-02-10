@@ -30,14 +30,10 @@ public class VersionList<E> implements List<E> {
     //List of changes
     private List<Branch> versions_history;
 
-    //Size of this version
-    private int size;
-
     //Constructor
     public VersionList() {
         DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd_hh:mm:sss");
         this.currentBranch = dateFormat.format(new Date());
-        this.size = 0;
         this.data = new ArrayList<>();
         this.versions_history = new ArrayList<>();
     }
@@ -45,7 +41,6 @@ public class VersionList<E> implements List<E> {
     public VersionList(Collection<? extends E> c) {
         DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd_hh:mm:sss");
         this.currentBranch = dateFormat.format(new Date());
-        this.size = 0;
         this.versions_history = new ArrayList<>();
         this.data = new ArrayList<>(c);
     }
@@ -57,7 +52,7 @@ public class VersionList<E> implements List<E> {
      */
     @Override
     public int size() {
-        return this.size;
+        return this.data.size();
     }
 
     /**
